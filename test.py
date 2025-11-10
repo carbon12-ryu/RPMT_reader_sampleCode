@@ -12,6 +12,7 @@ t0_pulse, neutrons, tof_data, total_count = RPMTreader.EDRread(
   tofCsvPath = os.path.join(current, "tofCsv", "rpmt_run0_tof.csv"),
   # xSwap = True,
   # ySwap = True,
+  # xySwap = True,
   tofBinTime = 100e-6 # default value is 10e-6
 )
 
